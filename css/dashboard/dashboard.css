@@ -11,6 +11,10 @@
 	--bgcn: #111827;
 	}
 
+	* {
+	font-family: font-family: 'DM Sans', sans-serif;;
+	}
+
 	body {
 	background-color: var(--bgcl);
 	font-family: 'DM sans-serif;';
@@ -1345,6 +1349,7 @@
 	height: 100%;
 	width: calc(100% - 5vw);
 	z-index: 100;
+	font-family: 'DM Sans', sans-serif;
 	}
 
 	.bookmarks .show-modal {
@@ -1367,10 +1372,10 @@
 	transform: translate(-50%, -50%);
 	border-radius: 15px;
 	overflow: hidden;
-	font-family: 'DM Sans', sans-serif;
 	animation: modalopen 1s;
 	background-color: var(--bgcl);
 	border: solid var(--pcl) 2px;
+	font-family: 'DM Sans', sans-serif;
 	}
 
 	.bookmarks .close-icon {
@@ -1430,6 +1435,7 @@
 	padding: 0 0 0 12px;
 	background-color: var(--scl);
 	color: var(--pcl);
+	font-family: 'DM Sans', sans-serif;
 	}
 
 	.bookmarks button {
