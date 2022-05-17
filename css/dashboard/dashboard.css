@@ -758,7 +758,7 @@
 		background-color: var(--bgcl);
 		border-radius: 15px;
 		border: solid var(--pcl) 2px;
-		z-index: 4;
+		z-index: 5;
 		}
 	    .google-content::-webkit-scrollbar
 	    {
