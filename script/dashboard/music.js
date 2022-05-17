@@ -44,6 +44,7 @@
     "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
     "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
     "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
     ];
 
     trackArtists = [
