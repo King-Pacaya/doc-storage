@@ -20,30 +20,30 @@
     trackIndex = 0;
 
     tracks = [
-    "music/Andy Grammer - Andy Grammer/01 - Keep Your Head Up.mp3",
-    "music/Andy Grammer - Andy Grammer/02 - Fine By Me.mp3",
-    "music/Andy Grammer - Andy Grammer/03 - Slow.mp3",
-    "music/Andy Grammer - Andy Grammer/04 - You Should Know Better.mp3",
-    "music/Andy Grammer - Andy Grammer/05 - Lunatic.mp3",
-    "music/Andy Grammer - Andy Grammer/06 - Miss Me.mp3",
-    "music/Andy Grammer - Andy Grammer/07 - The Pocket.mp3",
-    "music/Andy Grammer - Andy Grammer/08 - Ladies.mp3",
-    "music/Andy Grammer - Andy Grammer/09 - Love Love Love (Let You Go).mp3",
-    "music/Andy Grammer - Andy Grammer/10 - Build Me a Girl.mp3",
-    "music/Andy Grammer - Andy Grammer/11 - Biggest Man in Los Angeles.mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/01%20-%20Keep%20Your%20Head%20Up.mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/02%20-%20Fine%20By%20Me.mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/03%20-%20Slow.mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/04%20-%20You%20Should%20Know%20Better.mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/05%20-%20Lunatic.mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/06%20-%20Miss%20Me.mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/07%20-%20The%20Pocket.mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/08%20-%20Ladies.mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/09%20-%20Love%20Love%20Love%20(Let%20You%20Go).mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/10%20-%20Build%20Me%20a%20Girl.mp3",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/11%20-%20Biggest%20Man%20in%20Los%20Angeles.mp3",
     ];
 
     thumbnails = [
-    "music/Andy Grammer - Andy Grammer/cover.jpg",
-    "music/Andy Grammer - Andy Grammer/cover.jpg",
-    "music/Andy Grammer - Andy Grammer/cover.jpg",
-    "music/Andy Grammer - Andy Grammer/cover.jpg",
-    "music/Andy Grammer - Andy Grammer/cover.jpg",
-    "music/Andy Grammer - Andy Grammer/cover.jpg",
-    "music/Andy Grammer - Andy Grammer/cover.jpg",
-    "music/Andy Grammer - Andy Grammer/cover.jpg",
-    "music/Andy Grammer - Andy Grammer/cover.jpg",
-    "music/Andy Grammer - Andy Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
+    "https://king-pacaya.github.io/doc-storage/music/Andy%20Grammer%20-%20Andy%20Grammer/cover.jpg",
     ];
 
     trackArtists = [
