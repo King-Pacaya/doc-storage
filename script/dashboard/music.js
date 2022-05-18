@@ -20,7 +20,7 @@
     trackIndex = 0;
 
     tracks = [
-    "https://king-pacaya.github.io/doc-storage/music/m.png",
+    "https://king-pacaya.github.io/doc-storage/music/m.mp3",
     "https://king-pacaya.github.io/doc-storage/music/Eric%20Hutchinson%20-%20Rock'n%20Roll/01%20-%20Rock%20&%20Roll.mp3",
     "https://king-pacaya.github.io/doc-storage/music/Eric%20Hutchinson%20-%20Rock'n%20Roll/02%20-%20OK,%20It's%20Alright%20with%20Me.mp3",
     "https://king-pacaya.github.io/doc-storage/music/Eric%20Hutchinson%20-%20Rock'n%20Roll/03%20-%20Watching%20You%20Watch%20Him.mp3",
@@ -52,7 +52,7 @@
     ];
 
     thumbnails = [
-    "https://king-pacaya.github.io/doc-storage/music/m.png"
+    "https://king-pacaya.github.io/doc-storage/music/m.png",
     "https://king-pacaya.github.io/doc-storage/music/Eric%20Hutchinson%20-%20Rock'n%20Roll/cover.jpg",
     "https://king-pacaya.github.io/doc-storage/music/Eric%20Hutchinson%20-%20Rock'n%20Roll/cover.jpg",
     "https://king-pacaya.github.io/doc-storage/music/Eric%20Hutchinson%20-%20Rock'n%20Roll/cover.jpg",
@@ -84,7 +84,7 @@
     ];
 
     trackArtists = [
-    "Just play"
+    "Just play",
     "Eric Hutchinson",
     "Eric Hutchinson",
     "Eric Hutchinson",
