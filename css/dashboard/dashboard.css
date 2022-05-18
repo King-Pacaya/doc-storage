@@ -847,7 +847,7 @@
 			.header {
 			width: 100%;
 			height: 25vh;
-			background-image: url('../multimedia/images/fondo-todo-light.gif');
+			background-image: url('https://king-pacaya.github.io/doc-storage/img/dashboard/fondo-todo-light.gif');
 			background-size: 100% 100%;
 			background-repeat: no-repeat;
 			border-radius: 15px 15px 0 0;
@@ -942,6 +942,7 @@
 			height: 100%;
 			overflow: hidden;
 			border: none;
+			font-family: 'DM Sans', sans-serif;
 			}
 		/*******************************************Input Create Event*******************************************/
 			.todo-content .fa-plus-circle {
@@ -1189,6 +1190,7 @@
 		  cursor: text;
 		  outline: none;
 		  color: var(--bgcl);
+		  font-family: 'DM Sans', sans-serif;
 		  }
 		  .add-event-day-field::placeholder {
 		  color: var(--bgcl);
@@ -1592,7 +1594,7 @@
 		}
 
 		body.dark .header {
-		background-image: url('../multimedia/images/fondo-todo-dark.gif');
+		background-image: url('https://king-pacaya.github.io/doc-storage/img/dashboard/fondo-todo-dark.gif');
 		}
 
 	  body.dark .calendar-content, body.dark .cashow, body.dark .calendar-days li.active-day:after,
