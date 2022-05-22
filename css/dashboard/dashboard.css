@@ -666,7 +666,7 @@
 		}
 	/**************************************************Notes**************************************************/
 		.notes-content {
-		display: flex;
+		display: none;
 		position: fixed;
 		top: 8vh;
 		right: 1.7vw;
