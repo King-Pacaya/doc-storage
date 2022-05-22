@@ -96,7 +96,7 @@
       "https://king-pacaya.github.io/doc-storage/music/Discover%20Weekly/10%20-%20Radnor%20&%20Lee%20-%20Still%20Though%20We%20Should%20Dance.mp3",
       "https://king-pacaya.github.io/doc-storage/music/Discover%20Weekly/11%20-%20Bears%20in%20Trees%20-%20Good%20Rhymes%20for%20Bad%20Times.mp3",
     //Indie Study
-      "https://king-pacaya.github.io/doc-storage/music/Indie-Study/01%20-%20CASTLEBEAT-%20Into.mp3",
+      "https://king-pacaya.github.io/doc-storage/music/Indie-Study/01%20-%20CASTLEBEAT%20-%20Into.mp3",
       "https://king-pacaya.github.io/doc-storage/music/Indie-Study/02%20-%20Strawberry%20Guy%20-%20Sun%20Outside%20My%20Window.mp3",
       "https://king-pacaya.github.io/doc-storage/music/Indie-Study/03%20-%20Eyedress%20-%20Midnight%20on%20a%20Sunny%20Day.mp3",
       "https://king-pacaya.github.io/doc-storage/music/Indie-Study/04%20-%20rainbow%20frog%20biscuits%20-%20Attention.mp3",
