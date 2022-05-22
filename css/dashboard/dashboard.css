@@ -724,6 +724,18 @@
 		font-family: 'DM Sans', sans-serif;
 		}
 
+	    .notes-content .note::-webkit-scrollbar, .nshow .note::-webkit-scrollbar
+	    {
+	    width: 5px;
+	    background: transparent;
+	    }
+
+	    .notes-content .note::-webkit-scrollbar-thumb, .nshow .note::-webkit-scrollbar-thumb
+	    {
+	    background: var(--pcl);
+	    border-radius: 5px;
+	    }
+
 		#add-note {
 		position: relative;
 		background-color: var(--bgcl);
@@ -1768,5 +1780,11 @@ color: var(--pcn);
 		    }
 
 	    body.dark .nshow::-webkit-scrollbar-thumb, body.dark .notes-content::-webkit-scrollbar-thumb {
+	    background: var(--pcn);
+	    }
+
+	    body.dark .notes-content .note::-webkit-scrollbar-thumb,
+	    body.dark .nshow .note::-webkit-scrollbar-thumb
+	    {
 	    background: var(--pcn);
 	    }
