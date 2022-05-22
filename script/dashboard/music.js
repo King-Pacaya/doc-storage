@@ -208,7 +208,7 @@
       "https://king-pacaya.github.io/doc-storage/music/Guster%20-%20Easy%20Wonderful/05%20-%20Stay%20With%20Me%20Jesus%20(Album%20Version).mp3",
       "https://king-pacaya.github.io/doc-storage/music/Guster%20-%20Easy%20Wonderful/06%20-%20Bad%20Bad%20World%20(Album%20Version).mp3",
       "https://king-pacaya.github.io/doc-storage/music/Guster%20-%20Easy%20Wonderful/07%20-%20This%20Is%20How%20It%20Feels%20To%20Have%20A%20Broken%20Heart%20(Album%20Version).mp3",
-      "https://king-pacaya.github.io/doc-storage/music/Guster%20-%20Easy%20Wonderful/08%20-%20What%20You %2Call%20Love%20(Album%20Version).mp3",
+      "https://king-pacaya.github.io/doc-storage/music/Guster%20-%20Easy%20Wonderful/08%20-%20What%20You%20Call%20Love%20(Album%20Version).mp3",
       "https://king-pacaya.github.io/doc-storage/music/Guster%20-%20Easy%20Wonderful/09%20-%20That's%20No%20Way%20To%20Get%20To%20Heaven%20(Album%20Version).mp3",
       "https://king-pacaya.github.io/doc-storage/music/Guster%20-%20Easy%20Wonderful/10%20-%20Jesus%20&%20Mary%20(Album%20Version).mp3",
       "https://king-pacaya.github.io/doc-storage/music/Guster%20-%20Easy%20Wonderful/11%20-%20Hercules%20(Album%20Version).mp3",
@@ -498,7 +498,6 @@
       "https://king-pacaya.github.io/doc-storage/music/Discover%20Weekly/cover.jpg",
       "https://king-pacaya.github.io/doc-storage/music/Discover%20Weekly/cover.jpg",
     //Indie Study
-      "https://king-pacaya.github.io/doc-storage/music/Indie-Study/cover.jpg",
       "https://king-pacaya.github.io/doc-storage/music/Indie-Study/cover.jpg",
       "https://king-pacaya.github.io/doc-storage/music/Indie-Study/cover.jpg",
       "https://king-pacaya.github.io/doc-storage/music/Indie-Study/cover.jpg",
