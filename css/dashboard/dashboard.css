@@ -12,12 +12,12 @@
 	}
 
 	* {
-	font-family: font-family: 'DM Sans', sans-serif;;
+	font-family: 'DM Sans', sans-serif;
 	}
 
 	body {
 	background-color: var(--bgcl);
-	font-family: 'DM sans-serif;';
+	font-family: 'DM Sans', sans-serif;
 	}
 
 	a, button, .play-pause, .next-prev, select, svg, i, li, #progressBar, .btittle h1, .fa-caret-right,
@@ -363,6 +363,12 @@
 	/**************************************************Alarm**************************************************/
 		.alarm-content {
 		display: none;
+		position: fixed;
+		bottom: 0;
+		left: 5vw;
+		height: 84vh;
+		width: calc(67% - 5vw);
+		z-index: 98;
 		}
 		.ashow
 		{
@@ -373,6 +379,7 @@
 		height: 84vh;
 		width: calc(67% - 5vw);
 		z-index: 98;
+		font-family: 'DM Sans', sans-serif;
 		}
 			#myBox {
 			position: relative;
@@ -406,12 +413,12 @@
 			padding: 1.5vh 0;
 			margin: 0;
 			}
-
 				.time select {
 				color: var(--pcl);
 				margin: 0 .5vw;
 				font-size: 15px;
 				border: solid var(--pcl) 2px;
+				font-family: 'DM Sans', sans-serif;
 				}
 			#myDiv {
 			position: relative;
@@ -427,6 +434,7 @@
 				height: 50%;
 				text-align: center;
 				font-size: 15px;
+				font-family: 'DM Sans', sans-serif;
 				}
 				#myDiv select {
 				position: absolute;
@@ -440,6 +448,7 @@
 				border-radius: 15px;
 				overflow: hidden;
 				outline: none;
+				font-family: 'DM Sans', sans-serif;
 				}
 			.timebtn {
 			position: relative;
@@ -454,6 +463,7 @@
 				padding: 1vh 1.5vw;
 				font-size: 15px;
 				color: var(--pcl);
+				font-family: 'DM Sans', sans-serif;
 				}
 	/**************************************************Color**************************************************/
 			.color-content {
@@ -656,12 +666,12 @@
 		}
 	/**************************************************Notes**************************************************/
 		.notes-content {
-		display: none;
+		display: flex;
 		position: fixed;
 		top: 8vh;
 		right: 1.7vw;
 		border-radius: 15px;
-		overflow: hidden;
+		overflow-y: auto;
 		height: calc(96vh - 8vh);
 		width: calc(100% - 8vw);
 		background-color: var(--bgcl);
@@ -677,7 +687,7 @@
 		top: 8vh;
 		right: 1.7vw;
 		border-radius: 15px;
-		overflow: hidden;
+		overflow-y: auto;
 		height: calc(96vh - 8vh);
 		width: calc(100% - 8vw);
 		background-color: var(--bgcl);
@@ -686,6 +696,16 @@
 		font-family: 'DM Sans', sans-serif;
 		flex-wrap: wrap;
 		}
+
+	    .nshow::-webkit-scrollbar, .notes-content::-webkit-scrollbar {
+	    width: 5px;
+	    background: transparent;
+	    }
+
+	    .nshow::-webkit-scrollbar-thumb, .notes-content::-webkit-scrollbar-thumb {
+	    background: var(--pcl);
+	    border-radius: 5px;
+	    }
 
 		.notes-content .note, .nshow .note {
 		position: relative;
@@ -701,6 +721,7 @@
 		font-size: 15px;
 		outline: none;
 		padding: 2vh 1vw;
+		font-family: 'DM Sans', sans-serif;
 		}
 
 		#add-note {
@@ -899,11 +920,22 @@
 			.content {
 			position: relative;
 			width: 100%;
-			height: 50vh;
+			height: calc(100% - 32vh);
 			background-color: transparent;
 			overflow: auto;
 			font-family: 'DM Sans', sans-serif;
 			}
+		    .content::-webkit-scrollbar
+		    {
+		    width: 5px;
+		    background: transparent;
+		    }
+
+		    .content::-webkit-scrollbar-thumb
+		    {
+		    background: var(--pcl);
+		    border-radius: 5px;
+		    }
 			.content ul {
 			padding: 0;
 			margin: 0;
@@ -969,7 +1001,7 @@
 			outline: none;
 			background-color: transparent;
 			color: var(--pcl);
-			border-bottom: solid var(--pcl) 3px
+			border-bottom: solid var(--pcl) 3px;
 			}
 			#inputt::placeholder {
 			color: var(--pcl);
@@ -1451,6 +1483,7 @@
 	border: solid var(--pcl) 2px;
 	background-color: var(--bgcl);
 	color: var(--pcl);
+	font-family: 'DM Sans', sans-serif;
 	}
 
 	@keyframes modalopen {
@@ -1727,3 +1760,13 @@ color: var(--pcn);
 		body.dark #add-note:hover {
 		background: var(--scn);
 		}
+
+		    body.dark .content::-webkit-scrollbar-thumb
+		    {
+		    background: var(--pcn);
+		    border-radius: 5px;
+		    }
+
+	    body.dark .nshow::-webkit-scrollbar-thumb, body.dark .notes-content::-webkit-scrollbar-thumb {
+	    background: var(--pcn);
+	    }
