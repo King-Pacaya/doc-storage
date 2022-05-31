@@ -225,16 +225,24 @@
 	/************************************************Music App************************************************/
 		.music-content {
 		display: none;
-		}
-		.mshow
-		{
-		display: block;
 		position: fixed;
 		top: 0;
 		right: 0;
 		width: calc(35% - 2.5vw);
 		height: 100vh;
+		justify-content: center;
+		align-items: center;
+		background-color: var(--bgcl);
+		z-index: 98;
+		}
+		.mshow
+		{
 		display: flex;
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: calc(35% - 2.5vw);
+		height: 100vh;
 		justify-content: center;
 		align-items: center;
 		background-color: var(--bgcl);
@@ -268,30 +276,29 @@
 		z-index: 4;
 		bottom: -10%;
 		display: grid;
-		grid-template-colums: 35px 255px 35px;
 		grid-template-rows: 85px 25px 25px;
 		grid-template-areas:
 		"one two two three"
 		"four four four four"
 		"five five five five";
-		column-gap: 10px;
 		}
 
 		.play-pause {
 		grid-area: one;
 		display: flex;
-		justify-content: flex-end;
+		justify-content: center;
 		align-items: center;
 		color: var(--pcl);
+		width: 70px;
 		}
 
 		.track-info {
 		grid-area: two;
 		display: flex;
-		flex-direction: column;
 		justify-content: center;
-		align-items: flex-start;
-		padding-left: 5%;
+		flex-direction: column;
+		padding: 0 2vw;
+		width: 185px;
 		}
 
 		#track-artist {
@@ -313,8 +320,9 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: flex-start;
+		align-items: center;
 		color: var(--pcl);
+		width: 70px;
 		}
 
 		.progress-bar {
@@ -1654,10 +1662,16 @@
 	
 	  body.dark .calendar-days li.selected-day:after, body.dark,
 	  body.dark .left-side, body.dark .calendar-days li.active-day:after, body.dark .cshow,
-	  body.dark .color-content, body.dark .bookmarks, body.dark .bookmarks .modal {
+	  body.dark .color-content, body.dark .bookmarks {
 	  background: var(--bgcn);
 	  color: var(--pcn);
 	  }
+
+		body.dark .bookmarks .modal {
+	  background: var(--bgcn);
+	  color: var(--pcn);
+	  border: solid var(--pcn) 2px;
+		}
 
 		body.dark .calendar-days li.another-month:hover:after {
 		background-color: var(--pcn);
